@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2a20"/><stop offset="1" stop-color="#140f0b"/></linearGradient>
+<radialGradient id="gl" cx=".5" cy=".2" r=".75"><stop offset="0" stop-color="#f0ce8c" stop-opacity=".32"/><stop offset="1" stop-color="#f0ce8c" stop-opacity="0"/></radialGradient>
+<linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffaf0"/><stop offset="1" stop-color="#e6d3ae"/></linearGradient>
+<linearGradient id="gd" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#8a6a28"/><stop offset=".5" stop-color="#f6e3ad"/><stop offset="1" stop-color="#b8913f"/></linearGradient>
+<linearGradient id="fv" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#08070a"/><stop offset=".55" stop-color="#2a2140"/><stop offset="1" stop-color="#110e17"/></linearGradient>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#bg)"/>
+<rect width="512" height="512" rx="112" fill="url(#gl)"/>
+<rect x="18" y="18" width="476" height="476" rx="98" fill="none" stroke="#d9b86c" stroke-opacity=".6" stroke-width="5"/>
+<g>
+<path d="M256 388C214 358 158 352 100 362V212c58-12 114-6 156 26z" fill="url(#pg)" stroke="#b8913f" stroke-width="3" stroke-linejoin="round"/>
+<path d="M256 388c42-30 98-36 156-26V212c-58-12-114-6-156 26z" fill="url(#pg)" stroke="#b8913f" stroke-width="3" stroke-linejoin="round"/>
+<path d="M256 238v150" stroke="#b8913f" stroke-width="3"/>
+<path d="M128 252c36-7 72-4 104 11M128 280c36-7 72-4 104 11M128 308c36-7 72-4 104 11" stroke="#cdb88f" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M282 298c14-20 28 10 42-6s22-18 32-4" stroke="#7a5a1e" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M92 380c64-10 118-4 164 22 46-26 100-32 164-22" stroke="url(#gd)" stroke-width="9" stroke-linecap="round" fill="none"/>
+</g>
+<g transform="translate(356 292) rotate(-15) scale(1.7)">
+<path d="M13 85C22 64 40 40 98 2c-4 13-10 23-19 32l4 1c-7 8-15 15-24 21l3 2c-8 6-17 11-26 15l2 3c-7 4-15 7-25 9z" transform="translate(-1.5 -99.5)" fill="url(#fv)" stroke="#e2c37a" stroke-width="1.3" stroke-linejoin="round"/>
+<path d="M5 95L82 18" transform="translate(-1.5 -99.5)" stroke="url(#gd)" stroke-width="3" stroke-linecap="round"/>
+<circle cx="24" cy="76" r="5" transform="translate(-1.5 -99.5)" fill="url(#gd)"/>
+<path d="M1.5 99.5L8 88l4.5 4.2z" transform="translate(-1.5 -99.5)" fill="url(#gd)" stroke="#5e4512" stroke-width=".6"/>
+</g>
+</svg>
