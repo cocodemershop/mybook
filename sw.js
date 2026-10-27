@@ -1,5 +1,5 @@
 /* Offline-Speicher für die App. Nach jeder Änderung an den Dateien VERSION hochzählen. */
-const VERSION = 'seiten-v16';
+const VERSION = 'seiten-v18';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/icon.svg', './icons/favicon-48.png'];
 
 self.addEventListener('install', e => {
