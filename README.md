@@ -8,7 +8,15 @@ Erzähle in ein paar Sätzen, was heute war, und erhalte eine gestaltete Buchsei
 - **Neue Seite:** ein oder zwei Fotos (untereinander in voller Bildbreite), ein großes Feld für den Tag, alles Weitere freiwillig unter „Mehr hinzufügen“. Die Rechtschreibung wird beim Verlassen eines Feldes automatisch korrigiert.
 - **Powerbook Booster:** erst bis zu 200 Bilder, dann die Texte hochladen. Bild 1 gehört zu Text 1, Bild 2 zu Text 2 und so weiter (gleich nummerieren, z. B. `bild1.jpg` und `text1.txt`, oder eine Textdatei mit Abschnitten, getrennt durch Leerzeilen). Vor dem Erstellen zeigt „Zuordnung prüfen“ jedes Paar.
 - **Blätterbuch:** Vorschau und Download als echtes Blätterbuch, auf Wunsch mit Passwort verschlüsselt, druckbar in A5.
+- **Einband gestalten:** Titel, Untertitel, Name, Widmung, Coverfoto, Text für die Rückseite, Buchleinen in 13 Farben (oder eigene Farbe) und Prägung in Gold, Silber oder Kupfer, mit Live-Vorschau. Gilt für Blätterbuch, Download und Druck-PDF.
+- **Schrift des Buches:** 7 bewährte Buchschriften (Garamond, Baskerville, Caslon, Playfair & Lora, Cormorant & Lora, Crimson Pro, Merriweather). Die Dateien liegen im Ordner fonts/ (SIL Open Font License) und werden in heruntergeladene Bücher eingebettet.
+- **Druckfertige PDFs:** Innenteil und Umschlag für Online-Druckereien (A5, 3 mm Beschnitt) und Amazon KDP (6 × 9 oder 5,5 × 8,5 Zoll, 3,2 mm Beschnitt), 300 dpi, Buchrücken nach Seitenzahl und Papier, mindestens 24 Seiten. Die PDF-Bausteine liegen im Ordner `lib`, es wird nichts von fremden Servern geladen.
 - **Sicherung:** alle Seiten als Datei speichern und auf einem anderen Gerät wieder laden.
+
+## Ordner
+- `index.html`: die komplette Webseite
+- `lib/`: PDF-Bausteine (jsPDF, html2canvas) für die Druck-PDFs
+- `icons/`, `manifest.webmanifest`, `sw.js`: App-Icon und Offline-Betrieb
 
 ## Sofort ansehen
 ZIP entpacken und `index.html` doppelklicken. Für die Rechtschreibprüfung braucht der Browser Internet. Schreibschrift und Blätter-Funktion stecken schon in der Datei.
